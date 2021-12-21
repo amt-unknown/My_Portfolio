@@ -1,0 +1,44 @@
+.navbar{
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li{
+    float: left;
+}
+
+/* Navigation links */
+.navbar a {
+    display: block;
+    color: lightgrey;
+    text-align: center; /* If you want the text to be centered */
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #111;
+}
+
+.navbar li a:hover{
+    background-color:#111;
+}
+
+.generalinfo {
+    text-align: center;
+    border: solid black 1px;
+    width: 60%;
+    height: 700px;
+    float: center;
+    margin: 20px 0px 50px 20%;
+}
